@@ -1,0 +1,9 @@
+.NavBar a {
+  margin: .5em;
+}
+
+.NavBar a.active{
+  font-weight: 500;
+  text-decoration: none;
+  color: blue;
+}
