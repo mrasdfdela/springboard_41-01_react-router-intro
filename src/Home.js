@@ -1,11 +1,11 @@
 import React from "react";
-import VendingOptions from "./VendingOptions";
+import NavBar from "./NavBar";
 
 function Home() {
   return (
-    <div>
+    <div className="Home">
       <h1>Welcome to the vending machine</h1>
-      <VendingOptions />
+      <NavBar />
     </div>
   );
 }

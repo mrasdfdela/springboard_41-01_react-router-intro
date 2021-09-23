@@ -1,10 +1,10 @@
 import React from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
 
-import Home from "./Home";
 import NavBar from "./NavBar";
 import BackButton from './BackButton';
 
+import Home from "./Home";
 import Soda from "./Soda";
 import Chips from "./Chips";
 import Broccoli from "./Broccoli";
@@ -13,6 +13,7 @@ function VendingMachine() {
   return (
     <BrowserRouter>
       <NavBar />
+
       <Route exact path="/"> 
         <Home />
       </Route>
